@@ -4,8 +4,10 @@ Title: Rafli's Package as ETC5523 Communicating with Data Student Summary
 Version: 0.1.0
 Author: Rafli Ramdani
 Maintainer: Rafli Ramdani <rram0049@student.monash.edu>
-Description: The package contains my knowledge generated from studying this unit 
-over the semester.
+Description: The package contains my knowledge generated from
+  studying this unit over the semester.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 2.10)
