@@ -2,7 +2,7 @@
 library(dplyr)
 library(tidyr)
 library(readxl)
-library(usethis)  # To save cleaned data
+library(usethis)
 
 # Read the raw data
 olym_rawdata <- read_csv("data-raw/dataset_olympics.csv")
