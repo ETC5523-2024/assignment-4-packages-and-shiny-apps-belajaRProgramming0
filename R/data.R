@@ -24,6 +24,6 @@
 #'   \item{Top_1_value}{The numerical value of third highest attribute}
 #'
 #' }
-#' @source Generated during data cleaning.
+#' @source Cleaned data from Olympic datasets.
 #' @export
 "olym_final"

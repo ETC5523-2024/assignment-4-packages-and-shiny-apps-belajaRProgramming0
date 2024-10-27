@@ -29,7 +29,7 @@ A data frame with several columns, including:
 }
 }
 \source{
-Generated during data cleaning.
+Cleaned data from Olympic datasets.
 }
 \usage{
 olym_final
