@@ -47,7 +47,5 @@ other attributes, like this below:
 <figcaption aria-hidden="true">Attribute Meanings Table</figcaption>
 </figure>
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
+In the future, we’re planning to expand the buttons, filters, type of
+plots. Stay tune and make sure use the package, thanks…
