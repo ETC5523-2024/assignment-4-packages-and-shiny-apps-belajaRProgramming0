@@ -29,27 +29,49 @@ You can install the development version of rafliassign4 from [GitHub](https://gi
 pak::pak("ETC5523-2024/assignment-4-packages-and-shiny-apps-belajaRProgramming0")
 ```
 
-## Example
+## Overview
 
-This is a basic example which shows you how to solve a common problem:
+This package aims to help _Aspiring Athletes,_ _Coaches,_ _Sport Stakeholders,_ _Support System of athletes_ to see the pattern of peak age as an athlete in various Olympics' sport events. The knowledge can be used to plan a better and more accurate strategy to prepare the athletes for the next Olympics.
+
+Here's how you can load the library, after installation:
 
 ```{r example}
 library(rafliassign4)
-## basic example code
+## the package name is simple, all in lower case.
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+What is the example of library `rafliassign4` prowess?:
 
-```{r cars}
-summary(cars)
+```{r cars, echo=FALSE, warning=FALSE, message=FALSE}
+# Load other necessary libraries for plotting
+library(ggplot2)
+library(dplyr)
+
+# Dataset in this package
+data("cleaned_data", package = "rafliassign4")
+
+# Filtered example data (replace as needed)
+example_data <- cleaned_data |>
+    filter(Top_1_attr == "ANA", Year >= 2000 & Year <= 2016)
+
+# Generate boxplot
+ggplot(example_data, aes(x = Sport, y = Age)) +
+    geom_boxplot() +
+    labs(
+        title = "Age Distribution by Sport for ANA Attribute",
+        x = "Sport", 
+        y = "Age"
+    ) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
 ```
+
+
+There's also a table that explain the meaning of "ANA" attribute and other attributes, like this below:
+
+![Attribute Meanings Table](tablepicture.PNG)
 
 You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
 
 You can also embed plots, for example:
 
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.

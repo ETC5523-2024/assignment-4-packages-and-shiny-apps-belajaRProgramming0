@@ -20,35 +20,34 @@ You can install the development version of rafliassign4 from
 pak::pak("ETC5523-2024/assignment-4-packages-and-shiny-apps-belajaRProgramming0")
 ```
 
-## Example
+## Overview
 
-This is a basic example which shows you how to solve a common problem:
+This package aims to help *Aspiring Athletes,* *Coaches,* *Sport
+Stakeholders,* *Support System of athletes* to see the pattern of peak
+age as an athlete in various Olympics’ sport events. The knowledge can
+be used to plan a better and more accurate strategy to prepare the
+athletes for the next Olympics.
+
+Here’s how you can load the library, after installation:
 
 ``` r
 library(rafliassign4)
-## basic example code
+## the package name is simple, all in lower case.
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+What is the example of library `rafliassign4` prowess?:
 
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
+<img src="man/figures/README-cars-1.png" width="100%" />
+
+There’s also a table that explain the meaning of “ANA” attribute and
+other attributes, like this below:
+
+<figure>
+<img src="tablepicture.PNG" alt="Attribute Meanings Table" />
+<figcaption aria-hidden="true">Attribute Meanings Table</figcaption>
+</figure>
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date. `devtools::build_readme()` is handy for this.
 
 You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
