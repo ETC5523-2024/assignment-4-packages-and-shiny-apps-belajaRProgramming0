@@ -20,6 +20,14 @@ knitr::opts_chunk$set(
 
 The goal of rafliassign4 is to see the pattern of olympic medal winners in terms of their peak age range, according to their own sport or eevent.
 
+
+## Website Link (Documentation)
+[Click Here](https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-belajaRProgramming0/) 
+
+or 
+
+https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-belajaRProgramming0/
+
 ## Installation
 
 You can install the development version of rafliassign4 from [GitHub](https://github.com/) with:
