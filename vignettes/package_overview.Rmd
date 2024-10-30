@@ -1,0 +1,71 @@
+---
+title: "Introduction to rafliassign4"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to rafliassign4}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Introduction
+
+- Overview of the package and what it does.
+
+- Key features or functionalities.
+
+- Why users would find the package useful.
+
+- Installation Instructions
+
+```{r setup}
+# First, install the package by go to this github link:
+# ETC5523-2024/assignment-4-packages-and-shiny-apps-belajaRProgramming0
+
+# Next, type tis in your R Console:
+install.packages("rafliassign4")
+
+# Last, load the library into your workspace (Rmd, qmd, etc.)
+library(rafliassign4)
+```
+
+
+
+- Use Case or Example Workflows
+
+Step-by-step examples of how to use the package’s functions or data.
+
+```{r}
+# Example: Generate a boxplot for an attribute
+library(ggplot2)
+library(tidyverse)
+
+ggplot(cleaned_data, aes(x = Sport, y = Age)) +
+  geom_boxplot() +
+  labs(title = "Age Distribution by Sport", x = "Sport", y = "Age")
+
+```
+
+
+Visualizations and Plots (Optional)
+
+Use plots, diagrams, or tables to make it easier for users to understand the results.
+Example of a boxplot relevant to your package data:
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+
+ggplot(cleaned_data %>% filter(Top_1_attr == "ANA"), aes(x = Sport, y = Age)) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+

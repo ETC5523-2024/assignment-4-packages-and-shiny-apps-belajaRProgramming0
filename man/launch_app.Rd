@@ -7,5 +7,5 @@
 launch_app()
 }
 \description{
-This function launches the Shiny app contained in the package.
+Launch the Shiny App
 }
