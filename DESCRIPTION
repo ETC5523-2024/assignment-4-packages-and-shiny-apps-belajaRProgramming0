@@ -1,11 +1,11 @@
 Package: rafliassign4
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Peak Age of Olympians vs Sport Main Attributes
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Rafli Ramdani
+Maintainer: Rafli Ramdani <rram0049@student.monash.edu>
+Description: A package that aims to visualise the pattern of Olympic Medal Winner
+    of their age range and peaks according to different attributes needed.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
