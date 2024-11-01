@@ -4,6 +4,7 @@
 library(shiny)
 library(dplyr)
 library(DT)
+library(ggplot2)
 
 # Load the cleaned data from the package
 data("cleaned_data", package = "rafliassign4")
